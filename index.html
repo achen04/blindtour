@@ -1,3 +1,8 @@
+<!--Note that this framework was taken from a Bootstrap theme and then         modified and adapted to fit Blind Tour
+    Modified by: Annie Chen, Blind Tour intern of Summer 2016
+    Date: 9/1/16 -->
+
+
 <!DOCTYPE html>
 <html>
 
@@ -13,6 +18,8 @@
     <link rel="stylesheet" href="css/styles.css" />
 
 </head>
+
+<!-- Menu bar on top. Click on it and will bring you to the section in the page -->
 
 <body>
     <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -39,8 +46,7 @@
                         <a href="page2.html" target="_blank">行程訂購</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#three">盲旅理念
-</a>
+                        <a class="page-scroll" href="#three">盲旅理念</a>
                     </li>
 
                     <li>
@@ -54,6 +60,7 @@
             </div>
         </div>
     </nav>
+    <!-- home page-->
     <header id="first">
         <div class="header-content">
             <div class="inner">
@@ -61,11 +68,12 @@
                 <h4 class="text-center"> 體驗一場出乎意料的旅程。</h4>
                 <hr>
                 <div class="centered">
+                    <!-- Brings you to the tour sign up page-->
                     <a href="page2.html" class="btn btn-default btn-xl text" target="_blank"> 行程訂購</a>
                 </div>
             </div>
         </div>
-
+        <!-- Introducing Blind Tour with Youtube video-->
     </header>
     <section class="bg-primary" id="one">
         <div class="container">
@@ -94,6 +102,7 @@
         </div>
     </section>
 
+    <!-- Section with the 3 step process and two buttons for purchasing -->
     <section id="two">
         <div class="container">
             <div class="row">
@@ -137,20 +146,21 @@
 
         </div>
         <hr>
+        <!-- Team made the decision to take out this button. Can be put back in if an extra button for travel scheduling is needed-->
+
         <!--       <div class="centered">
             <a href="page2.html" class="btn btn-default btn-xl text" target="_blank"> 行程訂購</a>
         </div> -->
 
+        <!-- September travel schedule buttons-->
         <div class="centered">
             <a href="page2.html" class="btn btn-default btn-xl text" target="_blank"> 9月 行程訂購</a>
 
-            <a href="october.html" class="btn btn-default btn-xl text" target="_blank"> 10月 行程訂購</a>
         </div>
-
-
 
     </section>
 
+    <!-- Section of gallery pictures. If image is clicked on, then the image appears in screen size with more descriptions. Note that the descriptions cannot be changed here, but the descriptions are from images from the media team (changed in photoshop) -->
 
     <section id="pictures" class="no-padding">
         <div class="container-fluid">
@@ -181,8 +191,9 @@
                             </div>
                         </div>
                     </a>
-
                 </div>
+
+                <!-- Note that this last photo is one pixel larger in width than the previous two in this column because the screen width divided by three will result in an extra pixel (cannot be divided evenly) -->
                 <div class="col-lg-4 col-sm-6">
                     <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./images/placewordsnobox.jpg">
                         <img src="./images/place.jpg" class="img-responsive" alt="Image 3">
@@ -241,9 +252,7 @@
     </section>
 
 
-
-
-
+    <!--Section with youtube video on the 7-3 Theory -->
 
     <section class="bg-primary" id="three">
         <div class="container">
@@ -263,8 +272,7 @@
                         <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/SLM8nK_AsRo" frameborder="0" allowfullscreen></iframe>
                     </div>
 
-                    <!--     learn more button that scrolls down
-                   -->
+                    <!-- learn more button that scrolls down to the page. taken out because unnecessary in this case-->
 
                     <!--          <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a> -->
                 </div>
@@ -272,7 +280,7 @@
         </div>
     </section>
 
-
+    <!--Team photos and description-->
     <section id="last">
         <div class="container">
             <div class="row">
@@ -369,6 +377,8 @@
             </div>
         </div>
     </section>
+
+    <!--    Contact information section-->
     <section id="contact">
         <aside class="bg-primary">
             <div class="container text-center">
